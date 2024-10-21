@@ -7,7 +7,7 @@
 
 
 
-.montserrat-uniquifier> {
+.montserrat-uniquifier {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing : auto;
     font-weight: weight;
@@ -18,9 +18,26 @@ body {
 }
 
 .fa-brands {
-  color: white
+  color: white;
+}
+.fa-solid {
+  color: white;
 }
 
 .container { 
   flex-direction: row ;
+  border-bottom: 1px grey;
 }
+
+h3 {
+   font-size: ;
+   color : grey ;
+}
+span {
+  color: #1ed29b;
+}
+
+.center {
+  text-align: center;
+}
+
