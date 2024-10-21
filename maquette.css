@@ -15,6 +15,7 @@
   }
 body {
     background-color: #041821;
+    margin: 5%;
 }
 
 .fa-brands {
@@ -26,10 +27,19 @@ body {
 
 .container { 
   flex-direction: row ;
-  border-bottom: 1px grey;
+  border-bottom: solid grey;
+  display: flex;
+  justify-content: space-between;
+  margin: 0%
 }
+.container2 {
+flex-direction: row;
+display: flex;
+color: white;
+justify-content: space-evenly;
 
-h3 {
+}
+h5 {
    font-size: ;
    color : grey ;
 }
@@ -39,5 +49,20 @@ span {
 
 .center {
   text-align: center;
+  color:grey;
 }
 
+li {
+  display: flex;
+  justify-content: ;
+  border-width: 100px;
+  border-top: 100ppx;
+  border-color: #1ed29b;
+  
+}
+
+article {
+display: flex;
+justify-content: flex-start;
+
+}
