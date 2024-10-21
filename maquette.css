@@ -16,3 +16,11 @@
 body {
     background-color: #041821;
 }
+
+.fa-brands {
+  color: white
+}
+
+.container { 
+  flex-direction: row ;
+}
