@@ -1,13 +1,5 @@
-.yeseva-one-regular {
-    font-family: "Yeseva One", serif;
-    font-weight: 400;
-    font-style: normal;
-    color : white
-  }
 
-
-
-.montserrat-uniquifier {
+ul, h5, footer, .montserrat-uniquifier {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing : auto;
     font-weight: weight;
@@ -15,54 +7,48 @@
   }
 body {
     background-color: #041821;
-    margin: 5%;
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+    color : white
+  }
+main {
+  margin-right: 10%%;
+  margin: 4%;
 }
-
-.fa-brands {
+.fa-brands, .fa-solid {
   color: white;
 }
-.fa-solid {
-  color: white;
-}
-
 .container { 
-  flex-direction: row ;
+
   border-bottom: solid grey;
   display: flex;
   justify-content: space-between;
-  margin: 0%
 }
-.container2 {
+.smalltitles {
 flex-direction: row;
 display: flex;
 color: white;
-justify-content: space-evenly;
-
+justify-content: space-around;
+margin-right: 10%%;
+margin: 5%;
 }
 h5 {
-   font-size: ;
+   font-size: 50%;
    color : grey ;
 }
 span {
   color: #1ed29b;
 }
-
 .center {
   text-align: center;
   color:grey;
+  font-size: 8px;
+  padding-top: 5%;
 }
-
-li {
-  display: flex;
-  justify-content: ;
-  border-width: 100px;
-  border-top: 100ppx;
-  border-color: #1ed29b;
-  
-}
-
-article {
-display: flex;
-justify-content: flex-start;
-
+.gallery{
+display: grid;
+grid-template-columns: repeat(4, 200px) ;
+grid-template-rows: repeat(4, 200px);
+justify-content: center;
 }
