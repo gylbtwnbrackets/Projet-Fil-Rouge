@@ -13,7 +13,7 @@ body {
     color : white
   }
 main {
-  margin-right: 10%%;
+  margin-right: 10%;
   margin: 4%;
 }
 .fa-brands, .fa-solid {
@@ -29,7 +29,7 @@ flex-direction: row;
 display: flex;
 color: white;
 justify-content: space-around;
-margin-right: 10%%;
+margin-right: 10%;
 margin: 5%;
 }
 h5 {
