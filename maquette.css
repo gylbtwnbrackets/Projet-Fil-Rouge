@@ -28,9 +28,10 @@ main {
 flex-direction: row;
 display: flex;
 color: white;
-justify-content: space-around;
+justify-content: center;
 margin-right: 10%;
 margin: 5%;
+gap: 1em
 }
 h5 {
    font-size: 50%;
