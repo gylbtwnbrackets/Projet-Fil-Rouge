@@ -1,5 +1,5 @@
 
-ul, h5, footer, .montserrat-uniquifier {
+ul, p, footer, .montserrat-uniquifier {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing : auto;
     font-weight: weight;
@@ -12,22 +12,22 @@ body {
     font-style: normal;
     color : white
   }
-main {
+hgroup {
     display: flex; 
     justify-content: center;
     flex-direction: column;
-    margin-right: ;
-    margin-left: 19%;
+    
 }
 .fa-brands, .fa-solid {
   color: white;
 }
-.container { 
+header { 
   border-bottom: solid grey;
+  
   display: flex;
   justify-content: space-between;
 }
-.smalltitles {
+ul {
 flex-direction: row;
 display: flex;
 color: white;
@@ -36,26 +36,27 @@ margin-right: 10%;
 margin: 5%;
 gap: 1em
 }
-h5 {
-   font-size: 50%;
+p {
+   font-size: 60%;
    color : grey ;
 }
 span {
   color: #1ed29b;
 }
-.center {
+footer {
   text-align: center;
   color:grey;
   font-size: 8px;
   padding-top: 5%;
 }
-.gallery{
+section {
 display: grid;
 grid-template-columns: repeat(4, 200px) ;
 grid-template-rows: repeat(4, 200px);
 justify-content: center;
 grid-column-gap: 5px;
 grid-row-gap: 5px;
+width: 100%;
 }
 
 .choosen{
@@ -64,5 +65,24 @@ grid-row-gap: 5px;
   border-width: 2px;
   border-style: solid;
 
-  
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  section {
+    display: grid;
+    grid-template-columns: repeat(4, 200px) ;
+    grid-template-rows: repeat(4, 200px);
+    justify-content: center;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+
+    
+}
+    body{
+      background-color: aqua;
+ }
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 500px) {
+
 }
