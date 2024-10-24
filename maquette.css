@@ -1,88 +1,135 @@
 
 ul, p, footer, .montserrat-uniquifier {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing : auto;
-    font-weight: weight;
-    font-style: normal;
-  }
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing : auto;
+  font-weight: weight;
+  font-style: normal;
+}
 body {
-    background-color: #041821;
-    font-family: "Yeseva One", serif;
-    font-weight: 400;
-    font-style: normal;
-    color : white
-  }
+  background-color: #041821;
+  font-family: "Yeseva One", serif;
+  font-weight: 400;
+  font-style: normal;
+  color : white;
+  margin: 0;
+  padding: 0;
+
+  ;
+}
 hgroup {
-    display: flex; 
-    justify-content: center;
-    flex-direction: column;
-    
+  display: block; 
+  justify-content: center;
+  margin-left: 10% ;
+  margin-right: 10%;
+ 
 }
 .fa-brands, .fa-solid {
-  color: white;
+color: white;
 }
 header { 
-  border-bottom: solid grey;
-  
-  display: flex;
-  justify-content: space-between;
-}
-ul {
-flex-direction: row;
 display: flex;
+border-bottom: 1px solid grey;
+padding: 10px;
+justify-content: space-between;
+align-items: center;
+}
+
+ul {
+display: flex;
+flex-direction: row;
 color: white;
+gap: 1em;
 justify-content: center;
-margin-right: 10%;
-margin: 5%;
-gap: 1em
+
 }
 p {
-   font-size: 60%;
-   color : grey ;
+ font-size: 60%;
+ color : grey ;
+
 }
 span {
-  color: #1ed29b;
+color: #1ed29b;
 }
 footer {
-  text-align: center;
-  color:grey;
-  font-size: 8px;
-  padding-top: 5%;
+text-align: center;
+color:grey;
+font-size: 8px;
+padding-top: 5%;
 }
 section {
-display: grid;
-grid-template-columns: repeat(4, 200px) ;
-grid-template-rows: repeat(4, 200px);
-justify-content: center;
-grid-column-gap: 5px;
-grid-row-gap: 5px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr) ;
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap:6px;
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: center;
+
+}
+img {
 width: 100%;
-}
+height: 100%;
 
+}
 .choosen{
-  border-color: #1ed29b;
-  background-color: #1ed29b;
-  border-width: 2px;
-  border-style: solid;
-
+border-color: #1ed29b;
+background-color: #1ed29b;
+border-width: 2px;
+border-style: solid;
 }
 
-/* On screens that are 992px or less, set the background color to blue */
-@media screen and (max-width: 992px) {
-  section {
-    display: grid;
-    grid-template-columns: repeat(4, 200px) ;
-    grid-template-rows: repeat(4, 200px);
-    justify-content: center;
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
 
-    
+
+/*phone*/
+@media (max-width: 640px) {
+section {
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 8px;    
 }
-    body{
-      background-color: aqua;
+img:nth-child(n + 10) {
+    display: none; 
+}
+header {
+    justify-content: center; 
+    text-align: center; 
+    flex-direction: column; 
+}
+.fa-brands, .fa-solid {
+    justify-content: center; 
+    text-align: center; 
+    margin: 0; 
+    padding: 0; 
+}
+}
+p {
+  font-size: 100%;
+  color : grey ;
+  font-weight: 300;
+ 
  }
-/* On screens that are 600px or less, set the background color to olive */
-@media screen and (max-width: 500px) {
+ ul {
+  font-size: 75%;
+  justify-content: center;
+  padding-left:0;
 
+ }
+
+/*tablet*/
+@media (min-width: 642px) and (max-width: 1023px) {
+section {
+    grid-template-columns: repeat(5, 1fr); 
+    grid-gap: 8px; 
+}
+img:nth-child(n + 16) {
+  display: none; }  
+}
+
+
+/*computer*/
+@media (min-width: 1024) {
+  img:nth-child(n + 10) {
+  display: none; }  
+  section{
+  grid-template-columns: repeat(4, 1fr); 
+}
 }
