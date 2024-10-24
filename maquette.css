@@ -124,8 +124,8 @@ img:nth-child(n + 16) {
 
 
 /*computer*/
-@media (min-width: 1024) {
-  img:nth-child(n + 10) {
+@media (min-width: 1024px) {
+  img:nth-child(n + 15) {
   display: none; }  
   section{
   grid-template-columns: repeat(4, 1fr); 
