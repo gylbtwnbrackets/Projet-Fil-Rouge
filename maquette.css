@@ -1,8 +1,7 @@
 
 ul, p, footer, .montserrat-uniquifier {
   font-family: "Montserrat", sans-serif;
-  font-optical-sizing : auto;
-  font-weight: weight;
+  font-weight: normal;
   font-style: normal;
 }
 body {
