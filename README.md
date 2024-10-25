@@ -14,7 +14,7 @@ HTML et CSS
 
 
 
-### Lien vers le Github :
+### Lien vers le Github-Pages :
 
-https://github.com/gylbtwnbrackets/Projet-Fil-Rouge
+https://gylbtwnbrackets.github.io/Projet-Fil-Rouge/
 
