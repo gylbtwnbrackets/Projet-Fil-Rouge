@@ -32,6 +32,10 @@ padding: 10px;
 justify-content: space-between;
 align-items: center;
 }
+img:nth-child(n + 15) {
+  display: none; }  
+
+}
 
 ul {
 display: flex;
@@ -125,9 +129,3 @@ img:nth-child(n + 16) {
 
 /*computer*/
 @media (min-width: 1024px) {
-  img:nth-child(n + 15) {
-  display: none; }  
-  section{
-  grid-template-columns: repeat(4, 1fr); 
-}
-}
