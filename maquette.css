@@ -12,9 +12,52 @@ body {
   color : white;
   margin: 0;
   padding: 0;
-
-  ;
 }
+h2 {
+  display: grid;
+  justify-content: center;
+}
+button {
+
+  border-radius: 1em;
+}
+.use{
+  display: flex;
+  justify-content: center;
+
+}
+form {
+  background-color: grey;
+  font-style: black;
+  margin-left : 10% ;
+  margin-right : 10%;
+  padding : 1em ;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+ }
+
+label {
+  display: inline-block;
+  text-align: left;
+  color: black;
+}
+.test {
+  display: grid;
+}
+
+.center{
+
+  justify-content: center;
+}
+.on {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+
+}
+
+
+
 hgroup {
   display: block; 
   justify-content: center;
